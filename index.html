@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title-el" class="title">ROCK PAPER SCISSORS</h1>
+        <div class="player1">
+            <h2>Player 1</h2>
+            <p id="p1wins-el">Wins :</p>
+            <p id="p1move-el"></p>
+        </div>
+        <div class="player2">
+            <h2>Player 2</h2>
+            <p id="p2wins-el">Wins :</p>
+            <p id="p2move-el"></p>
+        </div>
+    </div>
+    <div class="description">
+        <button onclick="start()" class="btn" id="start-el">START GAME</button>
+        <BUtton onclick="keep()" class="btn" id="keep-el">KEEP GOING</BUtton>
+        <h2 class="messages" id="message-el"></h2>
+        <h2 id="wins-el"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
